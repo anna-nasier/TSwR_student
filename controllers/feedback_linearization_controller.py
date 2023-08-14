@@ -14,7 +14,7 @@ class FeedbackLinearizationController(Controller):
         """
         q1, q2, q1_dot, q2_dot = x
 
-        K_d = [[20, 0], [0, 50]]
+        K_d = [[20, 0], [0, 30]]
         K_p = [[20, 0], [0, 25]]
 
         v = q_r_ddot + K_d @ (q_r_dot - [q1_dot, q2_dot]) + K_p @ (q_r - [q1, q2])

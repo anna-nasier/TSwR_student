@@ -3,7 +3,7 @@ import sys
 from time import sleep
 from copy import copy
 import numpy as np
-sys.path.append(os.path.join(os.path.dirname(__file__), '..')) 
+sys.path.append(os.path.join(os.path.dirname(__file__), '..')) #solves problems with module finding without using pycharm
 from scipy.integrate import odeint
 from manipulators.planar_2dof import PlanarManipulator2DOF
 from manipulators.planar_2dof_pybullet import PlanarManipulator2DOFPyBullet

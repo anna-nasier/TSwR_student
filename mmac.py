@@ -21,7 +21,7 @@ end = 3.
 #controller = MMAController(Tp)
 controller = FeedbackLinearizationController(Tp)
 controller = DummyController(Tp)
-
+controller = MMAController(Tp)
 """
 Here you have some trajectory generators. You can use them to check your implementations.
 """
